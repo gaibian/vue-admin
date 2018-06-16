@@ -1,0 +1,175 @@
+body{
+  overflow:hidden;
+}
+.w-80 {
+  width: 80px !important;
+}
+.w-100 {
+  width: 100px !important;
+}
+.w-115 {
+  width: 115px !important;
+}
+.w-150 {
+  width: 150px !important;
+}
+.w-180 {
+  width: 180px !important;
+}
+.w-200 {
+  width: 200px !important;
+}
+.w-230 {
+  width: 230px !important;
+}
+.w-295 {
+  width: 295px !important;
+}
+.w-300 {
+  width: 300px !important;
+}
+.w-310 {
+  width: 310px !important;
+}
+.w-400 {
+  width: 400px !important;
+}
+.w-450 {
+  width: 450px !important;
+}
+.w-500 {
+  width: 500px !important;
+}
+.w-600 {
+  width: 600px !important;
+}
+.w-650 {
+  width: 650px !important;
+}
+.w-700 {
+  width: 700px !important;
+}
+.w-800 {
+  width: 800px !important;
+}
+.w-900 {
+  width: 900px !important;
+}
+.w-950 {
+  width: 950px !important;
+}
+.w-1000 {
+  width: 1000px !important;
+}
+.w-100p {
+  width: 100% !important;
+}
+.ovf-auto {
+  overflow: auto
+}
+.h-28 {
+  height: 28px !important;
+  line-height: 28px !important;
+}
+.h-30 {
+  height: 30px !important;
+  line-height: 30px !important;
+}
+.h-36 {
+  height: 36px !important;
+  line-height: 36px !important;
+}
+.h-40 {
+  height: 40px !important;
+  line-height: 40px !important;
+}
+.h-50 {
+  height: 50px !important;
+  line-height: 50px !important;
+}
+.h-60 {
+  height: 60px !important;
+  line-height: 60px !important;
+}
+.h-100 {
+  height: 100px !important;
+}
+.h-150 {
+  height: 150px !important;
+}
+.h-190 {
+  height: 190px !important;
+}
+.h-200 {
+  height: 200px !important;
+}
+.h-300 {
+  height: 300px !important;
+}
+.h-400 {
+  height: 400px !important;
+}
+.h-480 {
+  height: 480px !important;
+}
+.h-500 {
+  height: 500px !important;
+}
+.h-600 {
+  height: 600px !important;
+}
+.h-100p {
+  height: 100% !important;
+}
+.pos-rel{
+  position:relative;
+}
+.app_main_container{
+  width:100%;
+  /**/
+  /*display:flex;*/
+  height:100%;
+  //flex-direction: column;
+  padding:30px 40px 0px 40px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+.top_add_container{
+  margin-bottom:20px;
+}
+.flex-box{
+  display: -webkit-box; /* Chrome 4+, Safari 3.1, iOS Safari 3.2+ */
+  display: -moz-box; /* Firefox 17- */
+  display: -webkit-flex; /* Chrome 21+, Safari 6.1+, iOS Safari 7+, Opera 15/16 */
+  display: -moz-flex; /* Firefox 18+ */
+  display: -ms-flexbox; /* IE 10 */
+  display: flex; /* Chrome 29+, Firefox 22+, IE 11+, Opera 12.1/17/18, Android 4.4+ */
+}
+/*更改dialog弹出的样式*/
+.dialog-slider{
+  overflow: hidden;
+  .el-dialog{
+    position: absolute;
+    left:auto;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:0;
+    overflow-y:auto;
+    //width:70%;
+    border-radius: 0;
+    animation: slider-left 382ms;
+  }
+}
+@keyframes slider-left{
+  from{
+    opacity: 0;
+    transform: translateX(100%)
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0)
+  }
+}
